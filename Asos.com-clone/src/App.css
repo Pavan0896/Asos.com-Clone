@@ -1,0 +1,27 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#root{
+  margin: 0;
+  padding: 0;
+}
+#gradientBox{
+  padding: 4%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background: rgb(251,240,71);
+background: linear-gradient(90deg, rgba(251,240,71,1) 6%, rgba(4,217,139,0.9417016806722689) 61%, rgba(166,255,240,1) 94%);
+}
+
+#footer{
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: auto;
+  
+}
+
+
