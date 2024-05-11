@@ -27,7 +27,7 @@ Open the terminal and enter the commands
 ## Acknowledgements
 ### Libraries
 
-- **Redux and React-redux** Used for managing global state in the application.
+- **Redux and React-redux:** Used for managing global state in the application.
 - **React Router DOM:** Enables navigation and routing within the React application. UseSearchParams to set the URL according to the filtered data and on copying the URL and pasting in a different tab will get the same filtred data.
 
 ## Contact
