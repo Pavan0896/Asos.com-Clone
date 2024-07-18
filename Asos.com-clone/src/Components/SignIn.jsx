@@ -39,6 +39,7 @@ const SignIn = () => {
 
   return (
     <Box mt={20} mb={500}>
+    <h3 style={{textAlign:"center"}}>Please Log In to Continue</h3>
       {!isAuth ? (
         <Box w="85%" m={"auto"}>
           <form onSubmit={handleSubmit}>

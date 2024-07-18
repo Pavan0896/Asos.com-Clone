@@ -2,9 +2,8 @@ import { Box, Heading, Text } from "@chakra-ui/react";
 import React, { useEffect } from "react";
 import FontSize from "../Chakra Components/FontSize";
 
-const accountDetails = JSON.parse(localStorage.getItem("userDetails")) || [];
-
 const MyAccount = () => {
+  const accountDetails = JSON.parse(localStorage.getItem("userDetails")) || [];
   const address = JSON.parse(localStorage.getItem("userAddress")) || [];
   useEffect(() => {
     window.scrollTo(0, 0);
